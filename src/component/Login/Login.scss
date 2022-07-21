@@ -1,0 +1,144 @@
+.login {
+  width: 100%;
+  padding: 150px 20px 110px;
+  display: flex;
+  flex-wrap: wrap;
+  .login__content {
+    flex: 1;
+    h1 {
+      font-size: 25px;
+      margin-bottom: 35px;
+    }
+
+    .login__span {
+      display: block;
+      font-size: 13px;
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+
+    .login__input {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      label {
+        font-size: 15px;
+        margin-bottom: 5px;
+        span {
+          color: red;
+        }
+      }
+      input {
+        padding: 10px 12px;
+        border: 1px solid #000;
+      }
+    }
+
+    .login__error {
+      color: red;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .login__btn {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      p {
+        margin: 0;
+        color: red;
+        font-size: 14px;
+      }
+      button {
+        padding: 10px 15px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        outline: none;
+        margin-right: 30px; 
+      }
+
+      button:hover {
+        background-color: rgb(25, 121, 195);
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .login__change {
+    flex: 1;
+    span {
+      display: block;
+      font-size: 13px;
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #ccc;
+    }
+    button {
+        padding: 10px 15px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        outline: none;
+        margin-right: 30px;
+        i{
+          margin-right: 5px;
+        }
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+
+      button:hover {
+        background-color: rgb(25, 121, 195);
+        color: #fff;
+        cursor: pointer;
+      }
+  }
+}
+
+
+@media screen and (max-width:739px) {
+  .login{
+      flex-direction: column;
+      padding: 110px 10px;
+      width: 100%;
+      .login__content{
+          width: 100%;
+      }
+      .login__change{
+        width: 100%;
+        button{
+            width: 100% ;
+            margin: 5px 0;
+        }
+    }
+  }
+}
+
+@media screen and (min-width:740px) and (max-width:1023px) {
+  .login{
+      flex-direction: column;
+      padding: 110px 10px;
+      width: 100%;
+      .login__content{
+          width: 100%;
+      }
+      .login__change{
+          width: 100%;
+          button{
+              width: 100% ;
+              margin: 5px 0;
+          }
+      }
+  }
+}

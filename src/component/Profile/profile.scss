@@ -1,0 +1,55 @@
+.profile {
+  padding: 100px 20px 0px;
+  width: 100%;
+  .profile__body {
+    display: flex;
+    .profile__infor {
+      width: 25%;
+      .profile__infor__list {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        p {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .profile__history {
+      width: 75%;
+      .profile__history__body {
+        .profile__history__status {
+          display: flex;
+          justify-content: space-between;
+          padding: 5px 0;
+          background-color: #000;
+          margin-bottom: 5px;
+          color: #fff;
+          padding: 5px;
+        }
+        .profile__history__list {
+          .history__body__item {
+            display: flex;
+            padding: 10px;
+            width: 100%;
+            align-items: center;
+            img {
+              width: 100px;
+              object-fit: cover;
+            }
+            .item__info {
+              margin-left: 15px;
+              p {
+                font-size: 14px;
+              }
+            }
+            .item__info__name {
+              color: rgb(0, 107, 180);
+            }
+          }
+        }
+      }
+    }
+  }
+}

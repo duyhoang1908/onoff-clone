@@ -1,0 +1,22 @@
+button {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  p {
+    display: inline-block;
+    color: #fff !important;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    animation: spin 2s linear infinite;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

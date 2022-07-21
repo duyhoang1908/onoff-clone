@@ -1,0 +1,35 @@
+@media only screen and (max-width:739px) {
+    .banner{
+        margin-top: 60px !important;
+    }
+
+    .special{
+        flex-direction: column;
+        .special__item{
+            width: 100% !important;
+        }
+    }
+
+    .product{
+        .product__list{
+            flex-direction: column;
+            .product__item{
+                width: 100% !important;
+                img{
+                    object-fit: contain !important;
+                }
+            }
+        }
+    }
+
+    .media{
+        .media__list{
+            flex-direction: column;
+            .media__btn{
+                button{
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+}

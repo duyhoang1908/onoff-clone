@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:739px) {
+    .mobile--hiden{
+      display: none !important;
+    }
+}

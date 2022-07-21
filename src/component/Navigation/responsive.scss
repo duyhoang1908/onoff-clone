@@ -1,0 +1,13 @@
+@media only screen and (max-width: 739px) {
+    .nav__logo {
+        width: 50px !important;
+    }
+
+    .nav__bar{
+        display: block;
+    }
+
+    .nav__footer{
+        display: flex !important;
+    }
+}
